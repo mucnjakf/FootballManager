@@ -1,0 +1,15 @@
+hr\mucnjakf\formation\Formationable.class
+hr\mucnjakf\formation\Formation343.class
+hr\mucnjakf\model\Player.class
+hr\mucnjakf\formation\Formation4231.class
+hr\mucnjakf\formation\Formation433.class
+hr\mucnjakf\formation\Formation451.class
+hr\mucnjakf\utilities\alert\AlertUtilities.class
+hr\mucnjakf\utilities\reflection\ReflectionUtilities.class
+hr\mucnjakf\formation\Formation442.class
+hr\mucnjakf\utilities\string\StringUtilities.class
+hr\mucnjakf\main\MainApp.class
+hr\mucnjakf\formation\FormationsRepository.class
+hr\mucnjakf\controller\TeamBuilderController.class
+hr\mucnjakf\model\Team.class
+hr\mucnjakf\mysql\DataRepository.class
