@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.mucnjakf.controller.LeagueTableController">
+    <children>
+        <Label text="League Table" textFill="WHITE" underline="true">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <TableView fx:id="tvLeagueTable" maxHeight="400.0" maxWidth="770.0" prefHeight="400.0" prefWidth="770.0" style="-fx-background-color: #555555; -fx-border-color: #111111; -fx-border-width: 3;">
+            <columns>
+                <TableColumn fx:id="tcNumber" editable="false" prefWidth="31.0" text="#" />
+                <TableColumn fx:id="tcTeam" editable="false" prefWidth="127.0" text="Team" />
+                <TableColumn fx:id="tcGamesPlayed" editable="false" prefWidth="123.0" text="Games played" />
+                <TableColumn fx:id="tcPoints" editable="false" prefWidth="72.0" text="Points" />
+                <TableColumn fx:id="tcWins" editable="false" prefWidth="70.0" text="Wins" />
+                <TableColumn fx:id="tcDraws" editable="false" text="Draws" />
+                <TableColumn fx:id="tcLosses" editable="false" prefWidth="71.0" text="Losses" />
+                <TableColumn fx:id="tcGoalsFor" editable="false" prefWidth="102.0" text="Goals for" />
+                <TableColumn fx:id="tcGoalsAgainst" editable="false" prefWidth="120.0" text="Goals against" />
+            </columns>
+            <VBox.margin>
+                <Insets top="20.0" />
+            </VBox.margin>
+        </TableView>
+    </children>
+    <padding>
+        <Insets top="30.0" />
+    </padding>
+</VBox>
