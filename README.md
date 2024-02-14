@@ -1,4 +1,4 @@
-# # <img src="footballmanager.png" width="25"/> FootballManager
+# <img src="footballmanager.png" width="25"/> FootballManager
 
 ### **👁️ Overview**
 Football Manager Game Windows Desktop Application - 2020.
