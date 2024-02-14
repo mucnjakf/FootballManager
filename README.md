@@ -1,11 +1,11 @@
 # FootballManager
 
-Football Management Windows Desktop Application - 2020.
+Football Manager Game Windows Desktop Application - 2020.
 
 ---
 
 ### **Overview**
-Football Manager is a game for desktop between two players who create their team and play a match of football against each other.
+FootballManager is an desktop game designed for two players, where each player creates and manages their own football team to compete in a match against each other.
 
 ---
 
@@ -20,7 +20,7 @@ Football Manager is a game for desktop between two players who create their team
 ---
 
 ### **Tools**
-- Source Control: JetBrains Space
+- Source Control: GitHub
 - IDE: IntelliJ IDEA
 - UI Designer: Scene Builder
 
